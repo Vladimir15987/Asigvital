@@ -234,7 +234,7 @@ float: left;
 .footer {
     width: 100%;
     margin: 0 auto 0;
-    height: 280px;
+    height: 330px;
     background: rgb(2, 105, 66);
     position: relative;
     border-top: 1px solid #e1e1e1;
@@ -244,6 +244,13 @@ float: left;
     text-align: left;
     font-size: 17px;
     font-weight: bold;
+}
+
+.website{
+  margin-left: 13vh ;
+  font-size: 20px;
+  color:#ffb834 ;
+  text-decoration: underline;
 }
 
 .wrp {
@@ -271,7 +278,7 @@ margin-top: 0px;
 }
 
 .created{
- margin-left: 67.5vh;
+ margin-left: 59.5vh;
  text-decoration: underline;
  color: #ffd343;
  font-size: 20px;
@@ -378,4 +385,55 @@ a{
     width: 130px;
     height: 130px;
   }
+
+  .footer {
+    width: 100%;
+    margin: 0 auto 0;
+    height: 280px;
+    background: rgb(2, 105, 66);
+    position: relative;
+    border-top: 1px solid #e1e1e1;
+    padding-top: 20px;
+    font-size: 14px;
+    color: #fff;
+    text-align: left;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.wrp {
+    width: 1600px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 10px;
+}
+
+footer #social{
+  float: left;
+  float: right;
+} 
+
+footer #rights{
+  margin-left: 1px;
+} 
+
+footer #social img{
+width: 70px;
+height: 70px;
+float: right;
+margin-right: 20px ;
+margin-top: 0px;
+}
+
+.created{
+  margin-left: 67.5vh; 
+ text-decoration: underline;
+ color: #ffd343;
+ font-size: 20px;
+ margin-right: 50vh;
+}
+
+.pl{
+text-decoration: underline;
+}
 }
